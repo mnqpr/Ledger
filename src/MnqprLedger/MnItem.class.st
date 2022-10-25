@@ -12,3 +12,15 @@ Class {
 	],
 	#category : #MnqprLedger
 }
+
+{ #category : #testing }
+MnItem class >> isVoyageRoot [
+
+	^ true
+]
+
+{ #category : #testing }
+MnItem class >> voyageCollectionName [
+
+	^ 'Items'
+]
